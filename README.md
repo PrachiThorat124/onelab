@@ -139,10 +139,7 @@ Transaction 2: TXN008, $199.99, Mar 7, 10:31  (duplicate)
 Settlement:    TXN008, $199.99, Mar 9
 
 ✓ RESULT: BOTH matched to 1 settlement (flag for review)
-⚠️ ACTION: Manual investigation required
-   - Determine if duplicate is legitimate retransmission or error
-   - If error, reverse one transaction
-   - If legitimate, investigate why settlement only processed once
+
 ```
 
 ### 3️⃣ Late Settlement (TXN006)
@@ -178,11 +175,7 @@ Settlement:  TXN010, -$75.00
 Settlement: TXN999, $999.99 (no matching transaction)
 
 ✗ RESULT: FLAGGED as "extra settlement"
-⚠️ ACTION: Investigate
-   - Bank error (settlement for non-existent transaction)
-   - Missing transaction record
-   - Duplicate settlement from retry logic
-```
+
 
 ---
 
